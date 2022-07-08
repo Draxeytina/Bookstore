@@ -1,5 +1,11 @@
-export default function Book(props) {
+export default function Book(title, author) {
   return (
-    <li>Title: {props.title} by {props.author} <button type='button'>Delete</button></li>
+    <li>
+      Title:
+      {title}
+      by
+      {author}
+      <button type="button">Delete</button>
+    </li>
   );
 }

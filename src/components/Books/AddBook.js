@@ -1,4 +1,5 @@
-export default function AddBook(){
+/* eslint-disable jsx-a11y/label-has-associated-control */
+export default function AddBook() {
   return (
     <form>
       <label>
@@ -11,5 +12,5 @@ export default function AddBook(){
       </label>
       <input type="submit" value="Submit" />
     </form>
-  )
+  );
 }

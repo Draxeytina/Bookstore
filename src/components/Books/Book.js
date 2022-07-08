@@ -1,10 +1,12 @@
-export default function Book(title, author) {
+import React from 'react';
+
+export default function Book() {
   return (
     <li>
       Title:
-      {title}
+      {/* {props.title} */}
       by
-      {author}
+      {/* {props.author} */}
       <button type="button">Delete</button>
     </li>
   );

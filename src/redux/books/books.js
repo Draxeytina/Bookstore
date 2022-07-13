@@ -14,7 +14,7 @@ export default (state = initialState, action) => {
       ];
 
     case REMOVE:
-      return state.filter((listItem) => listItem.id !== action.id);
+      return state.filter((listItem) => listItem.id !== action.id + 1);
 
     default:
       return state;

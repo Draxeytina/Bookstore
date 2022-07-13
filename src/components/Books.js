@@ -1,5 +1,5 @@
-import BooksList from './Books/BooksList';
-import AddBook from './Books/AddBook';
+import BooksList from './BooksList';
+import AddBook from './AddBook';
 
 export default function Books() {
   return (

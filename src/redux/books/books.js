@@ -1,8 +1,8 @@
 const ADD = 'ADD';
 const REMOVE = 'REMOVE';
-const intialState = [];
+const initialState = [];
 
-export default (state = intialState, action) => {
+export default (state = initialState, action) => {
   switch (action.type) {
     case ADD:
       return [...state,

@@ -7,7 +7,7 @@ export default (state = intialState, action) => {
     case ADD:
       return [...state,
         {
-          id: action.id,
+          id: state.length + 1,
           title: action.title,
           author: action.author,
         },
@@ -21,9 +21,8 @@ export default (state = intialState, action) => {
   }
 };
 
-export const addBook = (title, author, state) => ({
+export const addBook = (title, author) => ({
   type: ADD,
-  id: state.length + 1,
   title,
   author,
 });

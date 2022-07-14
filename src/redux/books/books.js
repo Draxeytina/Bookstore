@@ -1,6 +1,21 @@
 const ADD = 'ADD';
 const REMOVE = 'REMOVE';
-const initialState = [];
+const initialState = [
+  {
+    id: 1,
+    author: 'Emmanuel Makandiwa',
+    title: 'Blood Remember Me',
+    Category: 'Religion',
+    progress: '64',
+  },
+  {
+    id: 2,
+    author: 'Ruth Makandiwa',
+    title: 'Inspired To Love',
+    Category: 'Drama',
+    progress: '8',
+  },
+];
 
 export default (state = initialState, action) => {
   switch (action.type) {

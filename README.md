@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Bookstore
+A Single Page App (SPA) for that manages a book library from the Bookstore API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Built With
+- React
+- Redux
+- JavaScript
 
-## Available Scripts
+## See Project 🌐
+Follow the link to view the website:
 
-In the project directory, you can run:
 
-### `npm start`
+## Getting Started
+You may setup the project on your local machine using the following steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Open the terminal
+- Get into the directory you want this folder to appear
+- Type 'git clone https://github.com/Draxeytina/Bookstore.git'
+- Open index.html file and open it with live server in your preferred editor
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Optionally you can follow the link under see project above ☝️
 
-### `npm test`
+## Author 🖋️
+👤 Tinashe Timothy Murambinda
+* <a href="https://github.com/Draxeytina/">Github</a>
+* <a href="https://twitter.com/tinamura2">Twitter</a>
+* <a href="https://www.linkedin.com/in/timothy-tinashe-murambinda-192442232/">LinkedIn</a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing
+You are welcome to make any contributions, issues, and feature requests!
 
-### `npm run build`
+## Show your support
+If you like this project please give a ⭐️!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Acknowledgments
+I would like to acknowledge the following for making this a success:
+- My coding partners
+- The Microverse code reviewers
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📝 License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is [MIT](https://github.com/Draxeytina/Bookstore/MIT.md) licensed.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

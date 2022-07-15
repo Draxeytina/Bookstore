@@ -24,7 +24,7 @@ export default function AddBook() {
   const handleSubmit = (event) => {
     const form = document.querySelector('form');
     event.preventDefault();
-    dispatch(addNewBook(UniqueStringGenerator.UniqueNumber(), state.title, state.author, 'TBA'));
+    dispatch(addNewBook([UniqueStringGenerator.UniqueNumber(), state.title, state.author, 'TBA']));
     form.reset();
   };
 

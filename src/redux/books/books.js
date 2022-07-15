@@ -104,7 +104,7 @@ export const bookSlice = createSlice({
 
 export const booksAPIReducer = bookSlice.reducer;
 
-const booksReducer = (state = [], action = {}) => {
+const booksReducer = (state = [], action) => {
   switch (action.type) {
     case ADD:
       return [

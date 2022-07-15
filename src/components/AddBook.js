@@ -1,7 +1,9 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../redux/books/books';
+import { addNewBook } from '../redux/books/books';
+
+const UniqueStringGenerator = require('unique-string-generator');
 
 export default function AddBook() {
   const [state, setState] = useState({
@@ -22,7 +24,7 @@ export default function AddBook() {
   const handleSubmit = (event) => {
     const form = document.querySelector('form');
     event.preventDefault();
-    dispatch(addBook(state.title, state.author));
+    dispatch(addNewBook(UniqueStringGenerator.UniqueNumber(), state.title, state.author, 'TBA'));
     form.reset();
   };
 
@@ -36,7 +38,7 @@ export default function AddBook() {
         Author:
         <input type="text" name="author" onChange={handleChange} required />
       </label>
-      <input type="submit" value="Add" />
+      <input type="submit" value="Add Book" />
     </form>
   );
 }

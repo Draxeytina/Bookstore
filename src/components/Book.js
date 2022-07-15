@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import 'react-circular-progressbar/dist/styles.css';
 import Remove from './DeleteBook';
 
 const Book = (props) => {

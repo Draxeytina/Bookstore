@@ -9,7 +9,7 @@ export default function Categories() {
     dispatch(checkStatus());
   };
   return (
-    <div>
+    <div className="display">
       <li>{categoryList}</li>
       <button
         type="button"

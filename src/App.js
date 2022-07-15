@@ -18,10 +18,20 @@ const App = () => (
       )}
       />
       <Route
-        path="/"
+        path="/Books"
         element={(
           <Books />
       )}
+      />
+      <Route
+        index
+        element={<Books />}
+      />
+      <Route
+        path="*"
+        element={
+          <div><h2>404 Page not found</h2></div>
+        }
       />
     </Routes>
   </BrowserRouter>

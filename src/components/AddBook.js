@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addNewBook } from '../redux/books/books';
 
+import './addbook.scss';
+
 const UniqueStringGenerator = require('unique-string-generator');
 
 export default function AddBook() {
@@ -29,16 +31,30 @@ export default function AddBook() {
   };
 
   return (
-    <form action="#" onSubmit={handleSubmit}>
-      <label>
-        Title:
-        <input type="text" name="title" onChange={handleChange} required />
-      </label>
-      <label>
-        Author:
-        <input type="text" name="author" onChange={handleChange} required />
-      </label>
-      <input type="submit" value="Add Book" />
-    </form>
+    <div className="addbook">
+      <hr />
+      <h2>ADD NEW BOOK</h2>
+      <form action="#" onSubmit={handleSubmit}>
+        <div className="formGrid">
+          <input
+            type="text"
+            name="title"
+            placeholder="Book Title"
+            className="inputForm"
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="text"
+            name="author"
+            placeholder="Author"
+            className="inputForm"
+            onChange={handleChange}
+            required
+          />
+          <input className="button" type="submit" value="Add Book" />
+        </div>
+      </form>
+    </div>
   );
 }

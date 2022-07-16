@@ -18,6 +18,7 @@
 	},
 	"ignoreFiles": [
 		"build/**",
+    "LICENSE",
     "public/**",
 		"dist/**",
     "src/reportWebVitals.js",

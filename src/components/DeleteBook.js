@@ -11,7 +11,15 @@ const Remove = () => {
   };
 
   return (
-    <button type="button" onClick={handleRemove}>Delete</button>
+    <div
+      role="button"
+      className="link"
+      onClick={handleRemove}
+      onKeyUp={handleRemove}
+      tabIndex="-2"
+    >
+      Delete
+    </div>
   );
 };
 

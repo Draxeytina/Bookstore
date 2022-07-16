@@ -1,7 +1,8 @@
 @import "../defaults.scss";
 
 .addbook {
-  margin-top: $padding*5;
+  margin-top: $padding*1.5;
+  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
 
   h2 {
     color: transparentize($color-secondary, 0.5);
